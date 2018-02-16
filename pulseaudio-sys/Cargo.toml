@@ -1,0 +1,14 @@
+[package]
+name = "pulseaudio-sys"
+description = "Bindings to PulseAudio supporting static linking and dynamic loading."
+homepage = "https://github.com/djg/pulseaudio-rs"
+repository = "https://github.com/djg/pulseaudio-rs"
+version = "0.2.0"
+authors = ["The Cubeb Project Developers"]
+license = "MIT / Apache-2.0"
+
+[features]
+dlopen = []
+
+[dependencies]
+libc = "0.2.20"

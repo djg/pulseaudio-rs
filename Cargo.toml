@@ -1,0 +1,2 @@
+[workspace]
+members = [ "pulseaudio", "pulseaudio-sys", "pulseaudio-sys/systest" ]

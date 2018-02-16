@@ -1,0 +1,11 @@
+[package]
+name = "systest"
+version = "0.1.0"
+authors = [ "The Cubeb Project Developers" ]
+build = "build.rs"
+
+[dependencies]
+pulseaudio-sys = { path = ".." }
+
+[build-dependencies]
+ctest = "0.1"
